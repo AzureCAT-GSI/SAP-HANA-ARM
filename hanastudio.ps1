@@ -11,7 +11,7 @@ param (
     $7zUri = "http://www.7-zip.org/a/7z1701-x64.msi"
     $sapcardest = "C:\SapBits\SAP_HANA_STUDIO\sapcar.exe"
     $hanastudiodest = "C:\SapBits\SAP_HANA_STUDIO\IMC_STUDIO2_212_2-80000323.SAR"
-    $jredest = "C:\Program Files\serverjre-9.0.1_windows-x64_bin.tar.gz"
+    $jredest = "C:\Program Files\serverjre-9.0.4_windows-x64_bin.tar.gz"
     $7zdest = "C:\Program Files\7z.msi"
     $jrepath = "C:\Program Files"
     $hanapath = "C:\SapBits\SAP_HANA_STUDIO"

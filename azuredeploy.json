@@ -154,7 +154,7 @@
     "largeUri": "https://raw.githubusercontent.com/AzureCAT-GSI/SAP-HANA-ARM/master/Vms/large.json",
     "extralargeUri": "https://raw.githubusercontent.com/AzureCAT-GSI/SAP-HANA-ARM/master/Vms/extralarge.json",
     "hanajbUri": "https://raw.githubusercontent.com/AzureCAT-GSI/SAP-HANA-ARM/master/Vms/hanajb.json",
-    "hanaUri": "https://raw.githubusercontent.com/AzureCAT-GSI/SAP-HANA-ARM/master/hanastudio.ps1",
+    "hanaUri": "https://raw.githubusercontent.com/AzureCAT-GSI/SAP-HANA-ARM/hana-studio-update/hanastudio.ps1",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',parameters('NetworkName'))]",
     "HANAsubnetRef": "[if (equals(parameters('ExistingNetworkResourceGroup'), 'no') , concat(variables('vnetID'),'/subnets/',parameters('HANASubnetName')),concat(resourceId(parameters('ExistingNetworkResourceGroup'), 'Microsoft.Network/virtualNetworks/', parameters('NetworkName')), '/subnets/',parameters('HANASubnetName')))]",
     "mgmtSubnetRef": "[if (equals(parameters('ExistingNetworkResourceGroup'), 'no') , concat(variables('vnetID'),'/subnets/',parameters('ManagementSubnetName')),concat(resourceId(parameters('ExistingNetworkResourceGroup'), 'Microsoft.Network/virtualNetworks/', parameters('NetworkName')), '/subnets/',parameters('ManagementSubnetName')))]",
