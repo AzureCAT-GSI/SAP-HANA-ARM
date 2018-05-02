@@ -3,10 +3,9 @@ HANAUSR=$2
 HANAPWD=$3
 HANASID=$4
 HANANUMBER=$5
-vmSize=$6
-SUBEMAIL=$7
-SUBID=$8
-SUBURL=$9
+SUBEMAIL=$6
+SUBID=$7
+SUBURL=$8
 
 #if needed, register the machine
 if [ "$SUBEMAIL" != "" ]; then

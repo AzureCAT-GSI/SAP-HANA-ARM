@@ -368,7 +368,7 @@
                 "fileUris": [
                   "[concat(variables('baseUri'),'scripts/small.sh')]"
                 ],
-                "commandToExecute": "[concat('sh small.sh \"', parameters('customUri'), '\"  \"' , parameters('vmUserName'), '\" \"', parameters('vmPassword'),'\" \"', parameters('HANASID'), '\" \"', parameters('HANANUMBER'), '\" \"', parameters('vmSize'), '\" \"',parameters('SubscriptionEmail'), '\" \"', parameters('SubscriptionID'),'\"  \"', parameters('SMTUri'),'\"')]"
+                "commandToExecute": "[concat('sh small.sh \"', parameters('customUri'), '\"  \"' , parameters('vmUserName'), '\" \"', parameters('vmPassword'),'\" \"', parameters('HANASID'), '\" \"', parameters('HANANUMBER'), '\" \"',parameters('SubscriptionEmail'), '\" \"', parameters('SubscriptionID'),'\"  \"', parameters('SMTUri'),'\"')]"
               }
             }
           }

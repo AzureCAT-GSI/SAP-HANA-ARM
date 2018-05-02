@@ -433,7 +433,7 @@
 			"fileUris": [
 			    "[concat(variables('baseUri'),'scripts/medium.sh')]"			    
                       ],
-                        "commandToExecute": "[concat('sh medium.sh \"', parameters('customUri'), '\" \"' , parameters('vmUserName'), '\" \"', parameters('vmPassword'),'\" \"', parameters('HANASID'), '\" \"', parameters('HANANUMBER'), '\" \"', parameters('vmSize'), '\" \"', parameters('SubscriptionEmail'), '\" \"', parameters('SubscriptionID'),'\"  \"', parameters('SMTUri'),'\"')]"
+                        "commandToExecute": "[concat('sh medium.sh \"', parameters('customUri'), '\" \"' , parameters('vmUserName'), '\" \"', parameters('vmPassword'),'\" \"', parameters('HANASID'), '\" \"', parameters('HANANUMBER'), '\" \"', parameters('SubscriptionEmail'), '\" \"', parameters('SubscriptionID'),'\"  \"', parameters('SMTUri'),'\"')]"
                     }
                 }
             }]

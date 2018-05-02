@@ -515,7 +515,7 @@
                       "fileUris": [
 			    "[concat(variables('baseUri'),'scripts/extraLarge.sh')]"			    
                       ],
-                        "commandToExecute": "[concat('sh extraLarge.sh \"', parameters('customUri'), '\" \"' , parameters('vmUserName'), '\" \"', parameters('vmPassword'),'\" \"', parameters('HANASID'), '\" \"', parameters('HANANUMBER'), '\" \"', parameters('vmSize'), '\" \"', parameters('SubscriptionEmail'), '\" \"', parameters('SubscriptionID'),'\" \"', parameters('SMTUri'),'\"')]"
+                        "commandToExecute": "[concat('sh extraLarge.sh \"', parameters('customUri'), '\" \"' , parameters('vmUserName'), '\" \"', parameters('vmPassword'),'\" \"', parameters('HANASID'), '\" \"', parameters('HANANUMBER'), '\" \"', parameters('SubscriptionEmail'), '\" \"', parameters('SubscriptionID'),'\" \"', parameters('SMTUri'),'\"')]"
                         
                     }
                 }
