@@ -43,6 +43,8 @@ serverjre-9.0.1_windows-x64_bin.tar.gz
 
 If you want to use a newer version of HANA Studio rename your filename to IMC_STUDIO2_212_2-80000323.SAR.
 
+The HANA Jumpbox automatically installs PuTTY to access the HANA node after the installation.
+
 The Server Java Runtime Environment bits can be downloaded [here](http://www.oracle.com/technetwork/java/javase/downloads/server-jre9-downloads-3848530.html).
 
 There should be a folder inside your storage account container called SapBits:
